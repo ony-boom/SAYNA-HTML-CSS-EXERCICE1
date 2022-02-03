@@ -135,7 +135,7 @@ p {
 
 /*/// Licornes-section ////*/
 
-.licorne-section {
+#licorne-section {
   margin-top: 5.6rem;
 }
 
@@ -167,7 +167,7 @@ figcaption {
 
 /* //// Place section //// */
 
-.section-place {
+#section-place {
   margin-top: 5.6rem;
 }
 
