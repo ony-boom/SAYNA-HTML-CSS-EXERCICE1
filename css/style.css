@@ -119,7 +119,7 @@ p {
 .main-content > .row {
   background-color: #fff;
   padding: 4rem 6rem;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
   border-radius: 1.2rem;
 }
 
@@ -136,7 +136,7 @@ p {
 /*/// Licornes-section ////*/
 
 .licorne-section {
-  margin-top: 3.2rem;
+  margin-top: 5.6rem;
 }
 
 .licornes-showcases {
@@ -163,6 +163,12 @@ figcaption {
   color: #fff;
   bottom: .2rem;
   padding: 1.2rem;
+}
+
+/* //// Place section //// */
+
+.section-place {
+  margin-top: 5.6rem;
 }
 
 .place-contact {
