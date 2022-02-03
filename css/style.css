@@ -149,9 +149,16 @@ p {
 
 .licorne-images {
   width: 100%;
+  transition: transform .3s;
+  cursor: pointer;
+}
+
+.licorne-images:hover {
+  transform: scale(1.1);
 }
 
 figure {
+  overflow: hidden;
   position: relative;
 }
 
