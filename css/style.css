@@ -135,25 +135,26 @@ p {
 
 /*/// Licornes-section ////*/
 
-#licorne-section {
+#unicorn-section {
   margin-top: 5.6rem;
 }
 
-.licornes-showcases {
+.unicorn-showcases {
   display: grid;
-  justify-content: center;
-  grid-template-columns: repeat(4, 1fr);
-  grid-column-gap: 3.2rem;
+  /* les codes en bas fait en sorte que les images de licornes rendent bien sur tout les tqilles d'ecran */
+  grid-template-columns: repeat(auto-fill, minmax(14rem, 24%));
+  grid-row-gap: 2rem;
   margin-bottom: 3.2rem;
+  justify-content: space-between;
 }
 
-.licorne-images {
+.unicorn-images {
   width: 100%;
   transition: transform .3s;
   cursor: pointer;
 }
 
-.licorne-images:hover {
+.unicorn-images:hover {
   transform: scale(1.1);
 }
 
@@ -168,7 +169,7 @@ figcaption {
   text-align: center;
   background-color: rgba(0, 0, 0, 0.75);
   color: #fff;
-  bottom: .2rem;
+  bottom: .05rem;
   padding: 1.2rem;
 }
 
@@ -180,7 +181,8 @@ figcaption {
 
 .place-contact {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(37rem, max-content));
+  justify-content: center;
   grid-column-gap: 2rem;
 }
 
@@ -231,5 +233,9 @@ footer {
   background-color: #C55394;
 }
 
+iframe {
+  width: 600rem;
+  max-width: 100%;
+}
 
 
