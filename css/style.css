@@ -66,10 +66,16 @@ p {
 
 .navbar__brand #brand-text {
   font-size: 2.4rem;
+  display: block;
+  width: max-content;
 }
 
 .navbar__link {
   list-style: none;
+}
+
+.navbar__list {
+  text-align: right;
 }
 
 .navbar__list-item {
@@ -108,6 +114,7 @@ p {
 .heading-primary {
   color: #C55394;
   width: max-content;
+  max-width: 100%;
   margin: 0 auto;
   padding: 8rem 10rem;
   background-image: url("../img/rainbow.png");
@@ -118,7 +125,7 @@ p {
 
 .main-content > .row {
   background-color: #fff;
-  padding: 4rem 6rem;
+  padding: clamp(2rem, 2.5%, 4rem);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
   border-radius: 1.2rem;
 }
@@ -181,7 +188,7 @@ figcaption {
 
 .place-contact {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(37rem, max-content));
+  grid-template-columns: repeat(auto-fit, minmax(30rem, max-content));
   justify-content: center;
   grid-column-gap: 2rem;
 }
