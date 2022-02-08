@@ -80,6 +80,8 @@ p {
 
 .navbar__list-item {
   display: inline-block;
+  text-transform: uppercase;
+  font-size: 1.4rem;
 }
 
 .navbar__list-item .navbar__link {
